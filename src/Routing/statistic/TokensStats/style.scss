@@ -1,0 +1,66 @@
+.stats {
+   
+    &-any {
+        margin-right: 200px;
+        display: flex;
+    }
+    &-any_second {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-name {
+        margin-left: 9px;
+    }
+    &-arrow-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+            margin-left: 33px;
+        }
+    }
+    
+&-token {
+    width: 88%;
+    z-index: 1;
+    &-main {
+        width: 100%;
+        display: flex;
+        // justify-content:space-between ;
+        font-family: 'Montserrat';
+        font-size: 19px;
+        color: #FFFFFF ;
+        padding: 37px 15px;
+        border-bottom: 1px solid #636363;
+    }
+}
+&-values {
+    margin-left: 100px;
+    &_first {
+        margin-left: 130px;
+    }
+    &_second {
+        margin-left: 98px;
+        color: red;
+    }
+    &_third {
+        margin-left: 65px;
+        color: green;
+    }
+    &_fours {
+        margin-left: 145px;
+    }
+    &_fives {
+        margin-left: 112px;
+    }
+}
+&-collection_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 85px;
+}
+}

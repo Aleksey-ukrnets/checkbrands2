@@ -1,0 +1,124 @@
+
+.sub {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 10000;
+    
+}
+.subfilter {
+    min-width: 280px;
+    border: 1px solid #585B59;
+    &:last-child {
+        border-radius: 0 0 10px 10px;
+        
+    }
+    &:first-child {
+        border-radius: 10px 10px 0 0;
+        
+    }
+        &-main {
+            display: flex;
+            flex-direction: column;
+        }
+        &-content {
+          
+            font-family: Montserrat;
+            font-size: 17px;
+            color: #FFFFFF;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: -0.035em;
+            padding: 20px 154px 21px 21px;
+            border-bottom: 1px solid #585B59;
+            &:last-child {
+                border-bottom: 0px;
+            }
+        }
+        
+}
+//second subs
+
+.sub__second {
+    position: absolute;
+    top: 70px;
+    left: 304;
+    
+}
+.subfilter__second {
+    min-width: 280px;
+    max-width: 280px;
+    border: 1px solid #585B59;
+    &:last-child {
+        border-radius: 0 0 10px 10px;
+        
+    }
+    &:first-child {
+        border-radius: 10px 10px 0 0;
+        
+    }
+        &-main {
+            display: flex;
+            flex-direction: column;
+        }
+        &-content {
+            display: flex;
+            font-family: Montserrat;
+            font-size: 17px;
+            color: #FFFFFF;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: -0.035em;
+            padding: 20px 104px 21px 21px;
+            border-bottom: 1px solid #585B59;
+            &:last-child {
+                border-bottom: 0px;
+            }
+            &-name {
+                margin-left: 24px;
+            }
+        }
+        
+}
+//Third subs
+.sub__third {
+    position: absolute;
+    top: 70px;
+    left: 608px;
+    
+}
+.subfilter__third {
+    min-width: 280px;
+    max-width: 280px;
+    border: 1px solid #585B59;
+    &:last-child {
+        border-radius: 0 0 10px 10px;
+        
+    }
+    &:first-child {
+        border-radius: 10px 10px 0 0;
+        
+    }
+        &-main {
+            display: flex;
+            flex-direction: column;
+        }
+        &-content {
+            display: flex;
+            font-family: Montserrat;
+            font-size: 17px;
+            color: #FFFFFF;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: -0.035em;
+            padding: 20px 104px 21px 21px;
+            border-bottom: 1px solid #585B59;
+            &:last-child {
+                border-bottom: 0px;
+            }
+            &-name {
+                margin-left: 24px;
+            }
+        }
+        
+}

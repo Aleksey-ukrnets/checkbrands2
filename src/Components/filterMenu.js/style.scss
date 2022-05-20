@@ -6,7 +6,9 @@
     color: white;
     pointer-events: none;
     display: none;
+    background: #191a1a;
     position: absolute;
+    z-index: 100;
     top: 111px;
     &.active {
         opacity: 1;

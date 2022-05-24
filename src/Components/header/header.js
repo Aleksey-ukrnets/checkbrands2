@@ -13,10 +13,10 @@ const Header = ({setActive}) => {
                 <div className='header-main'>
                     <div className='header-nav'>
                         <Menu />
-                        <div className='header-logo'>
+                        {/* <div className='header-logo'>
                             <img src={profile} className='header-logo_first' alt='logo' onClick={() => setActive(true)} />
                             <img src={wallet} alt='logo' />
-                            </div>
+                            </div> */}
                     </div>
                 </div>
             </header>

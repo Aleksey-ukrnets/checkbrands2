@@ -4,12 +4,20 @@ import './style.scss'
 import search from '../../assets/image/search.png'
 import {Link} from 'react-router-dom';
 
+
 import arrowdown from '..//..//assets/image/arrowdown.svg'
+import bannerMain from '../../assets/image/bannerBrands.png'
 
 const Main = ({setValue,text}) => {
 
+let description = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+ accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus`
 
 
+
+const [isOpen, setOpen] = useState(false)
 
     return(
         <>
@@ -31,19 +39,21 @@ const Main = ({setValue,text}) => {
             </div>
         </div>
         </div>        */}
-        <div>
-            <div style={{width: '100%', height: '244px', background: 'linear-gradient(180deg, #ED8F05 0%, #FEB55A 94.39%)',border: '1px solid #FFFFFF'}}></div>
+        <div style={{width: '100%', height: '244px'}} >
+            <img src={bannerMain} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </div>
         <div className='about'>
             <div className='about-main'>
                 <h3>Explore Brands</h3>
-                <p>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                 et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                  accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                   tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus`}</p>
-                
-                   <img className='about-arrow' src={arrowdown} />
-             
+                    <div className='test' style={isOpen ? {height: '130px'} : {height: '50px'}} >
+                        {description}
+                    </div>
+                   {
+                       description.length > 300 ? <img className='about-arrow' src={arrowdown}
+                       style={isOpen ? {transform: 'rotate(180deg)'} : {transform: 'rotate(0deg)'}}
+                       onClick={() => setOpen(!isOpen)}  /> 
+                       : null
+                   }
             </div>
             <h4 style={{color: '#FFFFFF'}}>Trending in Brands</h4>
         </div>

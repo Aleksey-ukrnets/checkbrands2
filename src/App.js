@@ -6,7 +6,10 @@ import Persons from '../src/Routing/persons/persons';
 import Brands from '../src/Routing/brands/brands';
 import AppLayout from '../src/Routing/AppLayout';
 import Stats from '../src/Routing/statistic/stats';
+
 import './style.scss';
+import './assets/fonts/fonts.scss'
+
 import NotFound from "./Routing/Notfound/Notfound";
 import { useState } from 'react';
 

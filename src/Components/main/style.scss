@@ -29,7 +29,7 @@
             bottom: 10%;
             left: 40%;
             z-index: 1000;
-            font-family: Avenir Next Cyr;
+            font-family: Gilroy;
             font-size: 30px;
             font-style: normal;
             font-weight: 400;
@@ -82,7 +82,7 @@
 .Link {
     display: flex;
     &-routes {
-        font-family: Montserrat;
+        font-family: Gilroy;
         font-size: 37px;
         font-style: normal;
         font-weight: 400;
@@ -105,7 +105,7 @@
         border-bottom: 1px solid #636363;
     }
     & h3 {
-        font-family: Montserrat;
+        font-family: Gilroy;
         font-size: 42px;
         font-weight: 600;
         line-height: 55px;
@@ -115,7 +115,7 @@
         color:#E5E8EB ;
     }
     & h4 {
-        font-family: Montserrat;
+        font-family: Gilroy;
         font-size: 27px;
         font-weight: 600;
         line-height: 36px;
@@ -125,7 +125,7 @@
         margin-top: 38px;
     }
     & p {
-        font-family: Montserrat;
+        font-family: Gilroy;
         font-size: 19px;
         font-weight: 500;
         line-height: 26px;
@@ -143,4 +143,18 @@
 
     }
     
+}
+.test {
+    font-family: Gilroy;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    text-align: center;
+    min-width: 868px;
+    max-width: 868px;
+    margin: 0 auto;
+    color: #E5E8EB;
+    margin-top: 51px;
+    overflow-y: hidden;
 }

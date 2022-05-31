@@ -30,10 +30,12 @@
         display: flex;
         // justify-content:space-between ;
         font-family: 'Gilroy';
+        font-weight: 550;
         font-size: 19px;
         color: #FFFFFF ;
         padding: 37px 15px;
         border-bottom: 1px solid #636363;
+       
     }
 }
 &-values {
@@ -53,7 +55,7 @@
         margin-left: 145px;
     }
     &_fives {
-        margin-left: 112px;
+        margin-left: 130px;
     }
 }
 &-collection_flex {

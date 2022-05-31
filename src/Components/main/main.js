@@ -39,17 +39,17 @@ const [isOpen, setOpen] = useState(false)
             </div>
         </div>
         </div>        */}
-        <div style={{width: '100%', height: '244px'}} >
+        <div style={{width: '100%', height: '244px',marginTop: '-1px'}} >
             <img src={bannerMain} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </div>
         <div className='about'>
             <div className='about-main'>
                 <h3>Explore Brands</h3>
-                    <div className='test' style={isOpen ? {height: '130px'} : {height: '50px'}} >
+                    <div className='test' style={isOpen ? {height: 'auto'} : {height: '75px'}} >
                         {description}
                     </div>
                    {
-                       description.length > 300 ? <img className='about-arrow' src={arrowdown}
+                       description.length > 330 ? <img className='about-arrow' src={arrowdown}
                        style={isOpen ? {transform: 'rotate(180deg)'} : {transform: 'rotate(0deg)'}}
                        onClick={() => setOpen(!isOpen)}  /> 
                        : null

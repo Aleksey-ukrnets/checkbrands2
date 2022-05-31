@@ -26,7 +26,8 @@
 
 // файл statsFilter
 &-main {
-    margin-top: 50px;
+    max-width: 884px;
+    margin: 50px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +38,7 @@
         border: 1px solid #1B4C7D;
         margin-left: 22px;
         min-width: 280px;
+        cursor: pointer;
        
        &:first-child {
            margin-left: 0;

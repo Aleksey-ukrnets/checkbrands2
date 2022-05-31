@@ -2,7 +2,7 @@ import gucci from './brandimage/gucci.png'
 import chanel from './brandimage/chanel.png'
 import prada from './brandimage/prada.png'
 import louis from './brandimage/louis.png'
-import mask from './brandimage/mask.png'
+
 import dolce from './brandimage/dolce.png'
 import fendi from './brandimage/fendi.png'
 import balenciaga from './brandimage/balenciaga.png'
@@ -15,7 +15,7 @@ import calvinklein from './brandimage/calvinklein.png'
 import armani from './brandimage/armani.png'
 import burberry from './brandimage/burberry.png'
 import boss from './brandimage/boss.png'
-import valentino from './brandimage/valentino.png'
+import versace from './brandimage/versace.png'
 
 
 export const BrandGroup = [
@@ -41,7 +41,7 @@ export const BrandGroup = [
         },
         {
             id: Date.now().toString(),
-            image: `${mask}`,
+            image: `${versace}`,
         },
         {
             id: Date.now().toString(),
@@ -61,40 +61,18 @@ export const BrandGroup = [
         },
         {
             id: Date.now().toString(),
-            image: `${bratouverie}`,
-        },
-        {
-            id: Date.now().toString(),
             image: `${givenchy}`,
         },
-        {
-            id: Date.now().toString(),
-            image: `${moncler}`,
-        },
-        {
-            id: Date.now().toString(),
-            image: `${dior}`,
-        },
-        {
-            id: Date.now().toString(),
-            image: `${calvinklein}`,
-        },
-        {
-            id: Date.now().toString(),
-            image: `${armani}`,
-        },
-        {
-            id: Date.now().toString(),
-            image: `${burberry}`,
-        },
-        {
-            id: Date.now().toString(),
-            image: `${boss}`,
-        },
-         {
-            id: Date.now().toString(),
-            image: `${valentino}`,
-        },
+        // {
+        //     id: Date.now().toString(),
+        //     image: `${calvinklein}`,
+        // },
+        // {
+        //     id: Date.now().toString(),
+        //     image: `${armani}`,
+        // },
+       
+        
        
       
     

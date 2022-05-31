@@ -17,15 +17,15 @@ export const SubSecond = [
         icon: `${categories}`,
         
     },
-    {
-        subname: 'Options',
-        icon: `${categories}`,
+    // {
+    //     subname: 'Options',
+    //     icon: `${categories}`,
         
-    },
-    {
-        subname: 'Bonds',
-        icon: `${categories}`,
+    // },
+    // {
+    //     subname: 'Bonds',
+    //     icon: `${categories}`,
         
-    },
+    // },
     
 ]

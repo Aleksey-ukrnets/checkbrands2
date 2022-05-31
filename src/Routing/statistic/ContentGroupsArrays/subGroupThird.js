@@ -18,12 +18,12 @@ export const SubThird = [
         subname: 'Polygon',
         icon: `${polygon}`,
     },
-    {
-        subname: 'Klayth',
-        icon: `${klayth}`,
-    },
-    {
-        subname: 'Solana',
-        icon: `${solana}`,
-    },
+    // {
+    //     subname: 'Klaytn',
+    //     icon: `${klayth}`,
+    // },
+    // {
+    //     subname: 'Solana',
+    //     icon: `${solana}`,
+    // },
 ]

@@ -5,7 +5,7 @@ import './style.scss'
 const Menu = () => {
     return(
         <>
-        <div className='Link' style={{display:'flex'}}>
+        <div className='Link' >
             <NavLink to='/stats' className="Link-routes">stats</NavLink>
             <NavLink to='/' className="Link-routes">persons</NavLink>
             <NavLink to='/brands' className="Link-routes">brands</NavLink>

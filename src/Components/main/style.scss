@@ -81,6 +81,8 @@
 }
 .Link {
     display: flex;
+    width: 90%;
+    justify-content: center;
     &-routes {
         font-family: Gilroy;
         font-size: 37px;

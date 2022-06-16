@@ -8,7 +8,7 @@ const  Brands = () => {
             <>
                 <Main />
         <div className="wrapper">
-     
+                
             <div className='main-list'>
                    {BrandGroup.map((item,index) => {
                        return(
